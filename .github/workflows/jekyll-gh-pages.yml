@@ -34,7 +34,7 @@ jobs:
         run : npm install
       - name: build js
         run : npx vite build
-      - name: run
+      - name: runserver
         run: npm run dev --host 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
